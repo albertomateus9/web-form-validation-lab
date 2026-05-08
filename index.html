@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web Form Validation Lab</title>
+  <meta name="description" content="Client-side registration form validation lab with inline feedback, synthetic fields, and no submission backend.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-mode="form">
+  <header>
+    <div class="topbar">
+      <div class="brand"><span class="mark">I</span><span>Web Form Validation Lab</span></div>
+      <nav aria-label="Primary navigation">
+        <a href="#practice">Practice</a>
+        <a href="#output">Output</a>
+        <a href="#privacy">Data policy</a>
+      </nav>
+      <button class="ghost" id="themeToggle" type="button">Theme</button>
+    </div>
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>Validate a registration form before submission.</h1>
+        <p>Practice real-time form feedback with synthetic fields and local-only validation.</p>
+        <div class="toolbar">
+          <a class="button" href="#practice">Start lab</a>
+          <button class="secondary" id="exportButton" type="button">Export report</button>
+        </div>
+      </div>
+      <aside class="panel">
+        <h2>I-04 Snapshot</h2>
+        <p>Web Technologies | Intermediate</p>
+        <div class="grid">
+          <div class="metric"><strong>5</strong><span>fields</span></div>
+          <div class="metric"><strong>0</strong><span>submit</span></div>
+          <div class="metric"><strong>Inline</strong><span>errors</span></div>
+        </div>
+      </aside>
+    </section>
+  </header>
+
+  <main>
+    <section id="practice">
+      <h2>Practice Surface</h2>
+      <div class="grid" id="cards"></div>
+    </section>
+
+    <section class="grid two" id="output">
+      <div class="panel">
+        <h2>Interactive Output</h2>
+        <div id="dynamicSurface"></div>
+      </div>
+      <div class="panel">
+        <h2>Progress</h2>
+        <div id="progressList"></div>
+      </div>
+    </section>
+
+    <section class="panel" id="privacy">
+      <h2>Data Policy</h2>
+      <p>Educational project inspired by EETEPA Vilhena Alves. It is not an official institutional system and does not use real student data.</p>
+      <p>All demo content is synthetic and local. No form or metric is submitted to a backend.</p>
+    </section>
+  </main>
+
+  <footer>
+    Technical Computing | Web Technologies | MIT License
+  </footer>
+
+  <script id="projectData" type="application/json">{"title":"Web Form Validation Lab","code":"I-04","discipline":"Web Technologies","notice":"Educational project inspired by EETEPA Vilhena Alves. It is not an official institutional system and does not use real student data.","features":[{"name":"addEventListener","score":72},{"name":"regular expressions","score":76},{"name":"inline validation","score":80},{"name":"preventDefault","score":84},{"name":"form UX","score":88}],"headline":"Validate a registration form before submission.","summary":"Practice real-time form feedback with synthetic fields and local-only validation.","cards":["Name check","Student code","Email format","Password strength"],"metrics":["5 fields","0 submit","Inline errors"]}</script>
+  <script src="script.js"></script>
+</body>
+</html>
