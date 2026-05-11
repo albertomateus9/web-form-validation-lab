@@ -1,91 +1,34 @@
-# Web Form Validation Lab
+# Laboratorio De Validacao De Formularios Web
 
-Client-side registration form validation lab with inline feedback, synthetic fields, and no submission backend.
+Formulario client-side com validacao inline, feedback visual e ausencia de backend.
 
-> Educational project inspired by EETEPA Vilhena Alves. It is not an official institutional system and does not use real student data.
+**Demo:** https://albertomateus9.github.io/web-form-validation-lab/
 
-## Overview
+> Projeto educacional inspirado na EETEPA Vilhena Alves. Não é sistema oficial institucional e não usa dados reais de estudantes.
 
-**Curricular code:** I-04  
-**Course:** Technical Computing  
-**Discipline:** Web Technologies  
-**Difficulty:** Intermediate
+## Visão Geral
 
-This repository is a small runnable MVP for portfolio and classroom practice. It uses only static files and local sample content, so it can run on GitHub Pages without a backend.
+Este laboratório web usa HTML, CSS e JavaScript simples para apoiar aulas de Tecnologias Web. A experiência foi desenhada para ser projetável, responsiva e fácil de adaptar por estudantes.
 
-## Concepts Practiced
+## Dinâmica Em Sala
 
-- addEventListener
-- regular expressions
-- inline validation
-- preventDefault
-- form UX
-
-## Run Locally
-
-Open `index.html` directly or serve the folder:
-
-```bash
-python -m http.server 8000
-```
-
-Then open `http://localhost:8000`.
-
-## Public Demo
-
-GitHub Pages target: `https://albertomateus9.github.io/web-form-validation-lab/`
-
-## Data And Privacy
-
-- Uses only synthetic educational content.
-- Does not submit forms to a server.
-- Does not include real student records or internal school documents.
-
----
-
-# Web Form Validation Lab
-
-Client-side registration form validation lab with inline feedback, synthetic fields, and no submission backend.
-
-> Projeto educacional inspirado na EETEPA Vilhena Alves. Nao e sistema oficial institucional e nao usa dados reais de estudantes.
-
-## Visao Geral
-
-**Codigo curricular:** I-04  
-**Curso:** Tecnico em Informatica  
-**Disciplina:** Tecnologias Web  
-**Dificuldade:** Intermediario
-
-Este repositorio e um MVP pequeno e executavel para portfolio e pratica em sala. Ele usa apenas arquivos estaticos e conteudo local de amostra, entao pode rodar no GitHub Pages sem backend.
-
-## Conceitos Praticados
-
-- addEventListener
-- regular expressions
-- inline validation
-- preventDefault
-- form UX
+- Abrir a demo no projetor ou navegador do aluno.
+- Ler o roteiro, explorar os cartões e registrar uma evidência.
+- Exportar o relatório local em Markdown.
+- Discutir melhorias de interface, dados, acessibilidade ou rede conforme a disciplina.
 
 ## Como Rodar
 
-Abra `index.html` diretamente ou sirva a pasta:
+Abra `index.html` no navegador ou use:
 
 ```bash
 python -m http.server 8000
 ```
 
-Depois abra `http://localhost:8000`.
+## Política De Dados
 
-## Demo Publica
+Todos os dados são sintéticos e ficam no navegador. Não há login, backend, API externa ou envio de formulários.
 
-Destino GitHub Pages: `https://albertomateus9.github.io/web-form-validation-lab/`
+## Licença
 
-## Dados E Privacidade
-
-- Usa apenas conteudo educacional sintetico.
-- Nao envia formularios para servidor.
-- Nao inclui registros reais de estudantes nem documentos internos da escola.
-
-## License
-
-MIT. See [LICENSE](LICENSE).
+MIT. Consulte [LICENSE](LICENSE).

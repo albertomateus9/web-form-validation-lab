@@ -1,4 +1,4 @@
-name: Static Smoke Test
+name: Teste Smoke Estatico
 
 on:
   push:

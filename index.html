@@ -1,73 +1,64 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Web Form Validation Lab</title>
-  <meta name="description" content="Client-side registration form validation lab with inline feedback, synthetic fields, and no submission backend.">
+  <title>Laboratorio De Validacao De Formularios Web</title>
+  <meta name="description" content="Formulario client-side com validacao inline, feedback visual e ausencia de backend.">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body data-mode="form">
+<body data-mode="lab">
   <header>
     <div class="topbar">
-      <div class="brand"><span class="mark">I</span><span>Web Form Validation Lab</span></div>
-      <nav aria-label="Primary navigation">
-        <a href="#practice">Practice</a>
-        <a href="#output">Output</a>
-        <a href="#privacy">Data policy</a>
+      <div class="brand"><span class="mark">I</span><span>Laboratorio De Validacao De Formularios Web</span></div>
+      <nav aria-label="Navegação principal">
+        <a href="#roteiro">Roteiro</a>
+        <a href="#pratica">Prática</a>
+        <a href="#dados">Dados</a>
       </nav>
-      <button class="ghost" id="themeToggle" type="button">Theme</button>
+      <button class="ghost" id="themeToggle" type="button">Contraste</button>
     </div>
     <section class="hero">
       <div class="hero-copy">
-        <h1>Validate a registration form before submission.</h1>
-        <p>Practice real-time form feedback with synthetic fields and local-only validation.</p>
+        <p class="eyebrow">I-04 | Tecnologias Web</p>
+        <h1>Laboratorio De Validacao De Formularios Web</h1>
+        <p>Formulario client-side com validacao inline, feedback visual e ausencia de backend.</p>
         <div class="toolbar">
-          <a class="button" href="#practice">Start lab</a>
-          <button class="secondary" id="exportButton" type="button">Export report</button>
+          <a class="button" href="#pratica">Iniciar laboratório</a>
+          <button class="secondary" id="exportButton" type="button">Exportar relatório</button>
         </div>
       </div>
       <aside class="panel">
-        <h2>I-04 Snapshot</h2>
-        <p>Web Technologies | Intermediate</p>
-        <div class="grid">
-          <div class="metric"><strong>5</strong><span>fields</span></div>
-          <div class="metric"><strong>0</strong><span>submit</span></div>
-          <div class="metric"><strong>Inline</strong><span>errors</span></div>
-        </div>
+        <h2>Roteiro rápido</h2>
+        <div class="metric"><strong>1</strong><span>Problema</span></div>
+        <div class="metric"><strong>3</strong><span>Evidências</span></div>
+        <div class="metric"><strong>0</strong><span>Backend</span></div>
       </aside>
     </section>
   </header>
-
   <main>
-    <section id="practice">
-      <h2>Practice Surface</h2>
+    <section id="roteiro">
+      <h2>Roteiro da Aula</h2>
       <div class="grid" id="cards"></div>
     </section>
-
-    <section class="grid two" id="output">
+    <section class="grid two" id="pratica">
       <div class="panel">
-        <h2>Interactive Output</h2>
+        <h2>Superfície Interativa</h2>
         <div id="dynamicSurface"></div>
       </div>
       <div class="panel">
-        <h2>Progress</h2>
+        <h2>Critérios de Evidência</h2>
         <div id="progressList"></div>
       </div>
     </section>
-
-    <section class="panel" id="privacy">
-      <h2>Data Policy</h2>
-      <p>Educational project inspired by EETEPA Vilhena Alves. It is not an official institutional system and does not use real student data.</p>
-      <p>All demo content is synthetic and local. No form or metric is submitted to a backend.</p>
+    <section class="panel" id="dados">
+      <h2>Política de Dados</h2>
+      <p>Projeto educacional inspirado na EETEPA Vilhena Alves. Não é sistema oficial institucional e não usa dados reais de estudantes.</p>
+      <p>Todo conteúdo é sintético, local e seguro para portfólio público. Nenhum formulário é enviado para backend.</p>
     </section>
   </main>
-
-  <footer>
-    Technical Computing | Web Technologies | MIT License
-  </footer>
-
-  <script id="projectData" type="application/json">{"title":"Web Form Validation Lab","code":"I-04","discipline":"Web Technologies","notice":"Educational project inspired by EETEPA Vilhena Alves. It is not an official institutional system and does not use real student data.","features":[{"name":"addEventListener","score":72},{"name":"regular expressions","score":76},{"name":"inline validation","score":80},{"name":"preventDefault","score":84},{"name":"form UX","score":88}],"headline":"Validate a registration form before submission.","summary":"Practice real-time form feedback with synthetic fields and local-only validation.","cards":["Name check","Student code","Email format","Password strength"],"metrics":["5 fields","0 submit","Inline errors"]}</script>
+  <footer>Tecnico Em Informatica | Tecnologias Web | Licença MIT</footer>
+  <script id="projectData" type="application/json">{"title":"Laboratorio De Validacao De Formularios Web","code":"I-04","course":"Tecnico Em Informatica","discipline":"Tecnologias Web","description":"Formulario client-side com validacao inline, feedback visual e ausencia de backend.","features":["planejamento da solução","organização visual","evidência local","apresentação em equipe"],"cards":["Missão guiada","Evidência local","Discussão em equipe","Melhoria incremental"]}</script>
   <script src="script.js"></script>
 </body>
 </html>
